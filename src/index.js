@@ -109,5 +109,8 @@ document
 //    ii++;
 //  });
 
-  document.querySelector(".bold").textContent =
-  "Copyright Bir Şirket Sitesi 2022";
+  // document.querySelector(".bold").textContent =
+  // "Copyright Bir Şirket Sitesi 2022";
+  const footer = document.querySelector("footer a") ;
+  footer.textContent = siteContent.footer.copyright ;
+  footer.classList.add ("bold");
